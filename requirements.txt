@@ -1,0 +1,7 @@
+gluoncv==0.10.5.post0
+ipython==8.5.0
+matplotlib==3.5.1
+mxnet==1.9.1
+numpy==1.22.3
+opencv_python_headless==4.6.0.66
+protobuf==4.21.5
