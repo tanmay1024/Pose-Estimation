@@ -14,13 +14,13 @@ Install the required libraries:
 ```bash
  pip  install requirements.txt
 ```
-Download the pretrained caffe model for OpenPose from [here](http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/mpi/pose_iter_160000.caffemodel) and place it in the [models](https://github.com/tanmay1024/Pose-Estimation/models) directory.
+Download the pretrained caffe model for OpenPose from [here](http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/mpi/pose_iter_160000.caffemodel) and place it in the [models](https://github.com/tanmay1024/Pose-Estimation/tree/main/models) directory.
 ## Inference
 OpenPose:
 ```bash
- python 3.x openpose.py
+ python 3.x openpose.py --video_dir path\to\video\file
 ```
 AlphaPose:
 ```bash
- python 3.x alphapose_with_gluoncv.py
+ python 3.x alphapose_with_gluoncv.py --video_dir path\to\video\file
 ```
