@@ -6,3 +6,20 @@ Pose estimation(PE) aims to identify the the skeletal structure of humans in mot
 | The Bottom-up approach works well when the frame contains few persons and that too, well separated from each other.                                                                                                                                                                     | The Top-down approach has been shown to be more effective when encountering situations like overlapping persons.                                                                                                                                                                |
 | Example: OpenPose(CMU-Pose)                                                                                                                                                                                                                                                             | Example: AlphaPose                                                                                                                                                                                                                                                              |
 | <img src='OpenPose.gif'>                                                                                                                                                                                                                                                                | <img src='AlphaPose.gif'>                                                                                                                                                                                                                                                       |
+
+
+
+## Requirements
+Install the required libraries:
+```bash
+ pip  install requirements.txt
+```
+## Inference
+OpenPose:
+```bash
+ python 3.x openpose.py
+```
+AlphaPose:
+```bash
+ python 3.x alphapose_with_gluoncv.py
+```
